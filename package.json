@@ -1,0 +1,41 @@
+{
+  "name": "weplay-server",
+  "version": "0.0.1",
+  "description": "API server for weplayer streaming web based media player",
+  "main": "./target/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "media",
+    "video",
+    "audio",
+    "streaming",
+    "weplay"
+  ],
+  "author": "timothy cook",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/register": "^7.0.0",
+    "del": "^3.0.0",
+    "eslint": "^5.11.1",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-eslint": "^5.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-ws": "^4.0.0",
+    "fs-extra": "^7.0.1",
+    "path": "^0.12.7",
+    "walk": "^2.3.14",
+    "ws": "^6.1.2"
+  }
+}

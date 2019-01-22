@@ -1,0 +1,28 @@
+ {
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+    "env": {
+        "mocha": true,
+        "node":  true,
+        "es6":   true
+    },
+    "rules": {
+        "no-underscore-dangle": 2,
+        "space-in-parens": 0,
+        "space-before-blocks": 0,
+        "space-in-brackets": 0,
+        "no-lonely-if": 0,
+        "no-new": 0,
+        "default-case": 0,
+        "quotes": [1, "single", "avoid-escape"],
+        "strict": 0,
+        "no-use-before-define": 2,
+        "camelcase": 0,
+        "new-cap": 0,
+        "curly": [2, "multi-line"],
+        "semi": [0, "always"],
+        "es6": 0
+    }
+}
